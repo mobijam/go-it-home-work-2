@@ -18,47 +18,43 @@
 --footer-bg: #2F303A;
 }
 
-/* Шрифты */
+/* Шрифты  и главный фон страницы*/
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-}
-
-/* Подчеркивание всех ссылок на сайте */
-a {
-    text-decoration: none;
-}
-
-/* Оформление всех ненумерованных списков на сайте точками  */
-ul {
-    list-style-type: none;
-}
-/* Шапка сайта */
-header {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--primary-bg);
 }
+
+/* Шапка сайта */
 /* Логотип веб-студии */
 .studio-logo {
     color: var(--main-accent);
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.84;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 /* Часть логотипа */
 .logo {
     color: var(--logo-part-text);
 }
+
 /* Меню навигации */
+.nav-bar {
+    list-style-type: none;
+}
+
 .nav-bar > .link {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.88;
     letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .link:hover,
@@ -67,14 +63,15 @@ header {
 }
 
 /* Контакты веб-студии */
+.contacts {
+    list-style-type: none;
+}
 .studio-contacts {
     color: var(--primary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.88;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .studio-contacts:hover,
@@ -87,11 +84,9 @@ header {
     color: var(--page-hero-text);
     /* цвет фона не из макета добавлен для контраста */
     background-color: teal;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 0.73;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -100,25 +95,18 @@ header {
 .button {
     color: var(--page-hero-text);
     background-color: var(--main-accent);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
+    line-height: 0.53;
     text-align: center;
     letter-spacing: 0.06em;
+    text-decoration: none;
 }
 /* Основной контент */
 .our-benefits {
-    background-color: var(--primary-bg);
     color: var(--primary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.58;
     letter-spacing: 0.03em;
 }
 /* Скрытый заголовок */
@@ -126,41 +114,39 @@ header {
     display: none;
 }
 /* Наши преимущества */
+.benefits-list {
+    list-style-type: none;
+}
+
 .benefits-list .title {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.88;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 /* Чем мы занимаемся */
-.our-projects {
-    background-color: var(--primary-bg);
-}
 /* Заголовок секции */
 .projects-title {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 0.86;
     letter-spacing: 0.03em;
 }
+
+.categories {
+    list-style-type: none;
+}
+
 /* Подписи к проектам */
 .project {
     color: var(--page-hero-text);
     background-color: var(--fig-caption-bg);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    text-align: center;
+    line-height: 0.86;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -171,110 +157,115 @@ header {
 /* Заголовок секции */
 .team-title {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 0.86;
     letter-spacing: 0.03em;
 }
+
+.team-list {
+    list-style-type: none;
+}
+
 /* Имя сотрудника */
 .employee-name {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 0.84;
     letter-spacing: 0.03em;
 }
 /* Должность */
 .employee-position {
     color: var(--primary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 0.84;
     letter-spacing: 0.03em;
 }
-/* Секция клиентов */
-.our-clients {
-    background-color: var(--primary-bg);
+
+.social-links-list {
+    list-style-type: none;
 }
+
+/* Секция клиентов */
 /* Заголовок секции */
 .clients-title {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 0.86;
     letter-spacing: 0.03em;
 }
+
+.clients-list {
+    list-style-type: none;
+}
+
 /* Подвал сайта */
 footer {
     background-color: var(--footer-bg);
 }
 /* Логотип веб-студии в футере */
+.studio-logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.studio-logo-footer:visited {
+    color: var(--main-accent);
+}
+
 .footer-logo {
     color: var(--page-hero-text);
 }
 /* Адрес веб-студии */
 address {
     color: var(--page-hero-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
 }
 /*  Контакты веб-студии в футере*/
 .footer-contacts {
     color: var(--footer-contacts);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 /* Призыв "присоединяйтесь" */
 .join-us {
     color: var(--page-hero-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.88;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 /*Разработчик сайта  */
 .copyright {
     color: var(--copyright);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 0.5;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.filter {
+    list-style-type: none;
 }
 
 .nav-portfolio {
     color: var(--secondary-page-text);
     background-color: var(--bnf-icons-bg);
-    font-family: Roboto;
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 162%;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -285,22 +276,34 @@ address {
     background-color: var(--main-accent);
 }
 
+.work-list {
+    list-style-type: none;
+}
+
+.work-link > a {
+    text-decoration: none;
+}
+
 .list-title {
     color: var(--secondary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 0.5;
     letter-spacing: 0.06em;
 }
 
 .work-type {
     color: var(--primary-page-text);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0.53;
+    letter-spacing: 0.03em;
+}
+
+.work-description {
+    color: var(--page-hero-text);
+    /* Добавила фон для контраста */
+    background-color: teal;
+    font-size: 18px;
+    line-height: 156%;
     letter-spacing: 0.03em;
 }
