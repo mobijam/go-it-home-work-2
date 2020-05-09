@@ -45,6 +45,10 @@ body {
     list-style-type: none;
 }
 
+.link:visited {
+    color: unset;
+}
+
 .nav-bar > .link {
     color: var(--secondary-page-text);
     font-weight: 500;
@@ -86,7 +90,7 @@ body {
     background-color: teal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 0.73;
+    line-height: 136%;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -97,7 +101,7 @@ body {
     background-color: var(--main-accent);
     font-weight: 700;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 187%;
     text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
@@ -106,7 +110,7 @@ body {
 .our-benefits {
     color: var(--primary-page-text);
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 171%;
     letter-spacing: 0.03em;
 }
 /* Скрытый заголовок */
@@ -251,7 +255,7 @@ address {
 .copyright {
     color: var(--copyright);
     font-size: 12px;
-    line-height: 0.5;
+    line-height: 200%;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -281,7 +285,7 @@ address {
     list-style-type: none;
 }
 
-.work-link > a {
+.work-item > a {
     text-decoration: none;
 }
 
