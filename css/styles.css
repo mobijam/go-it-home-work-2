@@ -45,11 +45,7 @@ body {
     list-style-type: none;
 }
 
-.link:visited {
-    color: unset;
-}
-
-.nav-bar > .link {
+.nav-bar .link {
     color: var(--secondary-page-text);
     font-weight: 500;
     font-size: 14px;
