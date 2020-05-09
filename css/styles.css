@@ -31,7 +31,7 @@ body {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -53,7 +53,7 @@ body {
     color: var(--secondary-page-text);
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -73,7 +73,7 @@ body {
 .studio-contacts {
     color: var(--primary-page-text);
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -90,7 +90,7 @@ body {
     background-color: teal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ body {
     background-color: var(--main-accent);
     font-weight: 700;
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
@@ -110,7 +110,7 @@ body {
 .our-benefits {
     color: var(--primary-page-text);
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /* Скрытый заголовок */
@@ -126,7 +126,7 @@ body {
     color: var(--secondary-page-text);
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -136,7 +136,7 @@ body {
     color: var(--secondary-page-text);
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.86;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -150,7 +150,7 @@ body {
     background-color: var(--fig-caption-bg);
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.86;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -163,7 +163,7 @@ body {
     color: var(--secondary-page-text);
     font-weight: bold;
     font-size: 36px;
-    line-height: 0.86;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -176,14 +176,14 @@ body {
     color: var(--secondary-page-text);
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 /* Должность */
 .employee-position {
     color: var(--primary-page-text);
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -197,7 +197,7 @@ body {
     color: var(--secondary-page-text);
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.86;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -214,7 +214,7 @@ footer {
     font-family: Raleway;
     font-weight: 700;
     font-size: 22px;
-    line-height: 0.85;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -231,14 +231,14 @@ address {
     color: var(--page-hero-text);
     font-style: normal;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /*  Контакты веб-студии в футере*/
 .footer-contacts {
     color: var(--footer-contacts);
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -247,7 +247,7 @@ address {
     color: var(--page-hero-text);
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -255,7 +255,7 @@ address {
 .copyright {
     color: var(--copyright);
     font-size: 12px;
-    line-height: 200%;
+    line-height: 2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -270,7 +270,7 @@ address {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -293,14 +293,14 @@ address {
     color: var(--secondary-page-text);
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .work-type {
     color: var(--primary-page-text);
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
 
@@ -309,6 +309,6 @@ address {
     /* Добавила фон для контраста */
     background-color: teal;
     font-size: 18px;
-    line-height: 156%;
+    line-height: 1.56;
     letter-spacing: 0.03em;
 }
